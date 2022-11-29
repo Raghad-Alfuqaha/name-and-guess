@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eefbea;
+}
+header{
+    border: 0.2rem solid black;
+    color: aliceblue;
+    background-color: rgb(60, 156, 0);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 7vh;
+    font-size: xx-large;
+  
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content:flex-start;
+    align-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+#formAndData{
+    display: flex;
+    flex-direction: column;
+    
+}
+#localStorage{
+    height: fit-content;
+    border: 0.2rem solid black;
+  
+margin-top: 20PX;
+    color: aliceblue;
+    background-color: rgb(18, 156, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#localStorageHeader{
+    margin: 1vw;
+    border-bottom:0.2rem double black ;
+  
+}
+form{
+    margin-top: 2rem;
+    margin-left:8rem ;
+    display: flex;
+    flex-direction: column;
+    
+}
+#inputLabel,#firstname,#subbtn{
+    height:1.2rem ;
+    width: 10rem;
+}
+#namediv{
+    margin-top: 4rem;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+#countries{
+    display: grid;
+    gap: 5px;
+}
+img{
+    height: 12vh;
+    width: 18vw;
+}
+
+h4{
+    display: inline;
+}
+
+#subbtn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 20px;
+    height: 15px;;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name And Guess</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="module" defer src="localstorage.js"></script>
+    <script type="module" defer src="dom.js"></script>
+    
+
+</head>
+<body>
+    <header>NAME & GUESS</header>
+    <main>
+        <div id="localStorage">
+            <h1 id="localStorageHeader">local Storage</h1>
+            
+        </div>
+        <div id="formAndData">
+            
+            <form id="nameform">
+                <label for="firstname" id="inputLabel">Please Enter Your Name </label>
+                <br>
+                <input id="firstname" name="firstname" type="text" onkeypress="javascript: if(event.keyCode == 32) {alert('Spaces Not Allowed'); return false;} ;">
+                <br>
+                <input id="subbtn" name="subbtn" type="submit">
+            </form> 
+            <div id="namediv">
+                <div id="name"><h4>Name:</h4> </div>
+                <div id="gender"><h4>Gender: </h4></div>
+                <div id="age"><h4>Age: </h4></div>
+                <div id="countries"><h4>Countries: </h4></div>
+            </div>
+        </div>
+        
+       
+    </main>    
+</body>
+
+</html>
